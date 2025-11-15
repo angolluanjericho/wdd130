@@ -1,6 +1,6 @@
 :root {
     --primary-color: #f23740;
-    --Heading color: rgb(241, 241, 241);
+    --heading-color: rgb(241, 241, 241);
     --text-color: rgb(32, 32, 32);
     --heading-font: sans-serif, Arial;
     --body-font: Helvetica, Arial;
@@ -12,7 +12,7 @@
 }
 body {
     font-family: var(--body-font);
-    color: var(--black);
+    color: var(--text-color);
 
 }
 header, main, footer {
@@ -26,7 +26,7 @@ header img{
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--main-color);
+    color: var(--primary-color);
 }
 nav, p, section, article {
     margin: 16px;
@@ -53,8 +53,8 @@ nav a {
     padding: 16px; 
     text-align: center;
     opacity: 0.7;
-    background-color: var(--main-color);
-    color: var(--white);
+    background-color: var(--primary-color);
+    color: var(--heading-color);
 }
 .hero article {
     position: absolute;
@@ -63,8 +63,8 @@ nav a {
     padding: 16px; 
     text-align: center;
     opacity: 0.7;
-    background-color: var(--main-color);
-    color: var(--white);
+    background-color: var(--primary-color);
+    color: var(--heading-color);
 }
 .hero article img {
     float: right;
@@ -80,6 +80,6 @@ section h2 {
     padding: 16px; 
     text-align: center;
     opacity: 0.7;
-    background-color: var(--white);
-    color: var(--main-color);
+    background-color: var(--heading-color);
+    color: var(--primary-color);
 }
