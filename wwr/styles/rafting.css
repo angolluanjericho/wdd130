@@ -158,11 +158,11 @@ figure img{
     text-align: center;
 }
 footer p{
-    color: var(--heading-color);
+    /* color: var(--heading-color); */
 }
 footer nav a {
     display: block;
-    color: var(--heading-color);
+    /* color: var(--heading-color); */
     text-align: center;
     padding: 0.5rem 2rem;
     text-decoration: none;
