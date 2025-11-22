@@ -1,7 +1,7 @@
 :root {
     --primary-color: #f23740;
     --heading-color: rgb(241, 241, 241);
-    --text-color: rgb(32, 32, 32);
+    --text-color: rgb(28, 28, 28);
     --heading-font: sans-serif, Arial;
     --body-font: Helvetica, Arial;
 }
@@ -67,7 +67,7 @@ nav a {
 }
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
 }
 .hero {
     position: relative;
@@ -85,17 +85,17 @@ h1, h2 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--primary-color);
-    color: var(--heading-color);
+    color: var(--text-color);
 }
 .hero article {
     position: absolute;
     bottom: 20px;
     width: 95%;
     padding: 16px; 
-    text-align: center;
+    /* text-align: center; */
     opacity: 0.7;
     background-color: var(--primary-color);
-    color: var(--heading-color);
+    color: var(--text-color);
 }
 .hero article img {
     float: right;
