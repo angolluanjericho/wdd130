@@ -26,6 +26,7 @@ header {
 }
 header, footer {
     background-color: var(--text-color);
+    color: var(--heading-color);
 }
 
 header, main, footer {
