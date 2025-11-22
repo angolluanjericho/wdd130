@@ -32,7 +32,7 @@ header, main, footer {
     
 }
 header img{
-    width: 90px;
+    width: 100px;
     height: auto;
     padding: 0.5rem;
     margin-left: 120px;
@@ -52,18 +52,15 @@ nav li {
     /* flex: 1 1 100%; */
     
 }
-nav a {
+header nav a {
     /* display: block; */
     color: var(--heading-color);
     text-align: center;
     padding: 0.5rem 2rem;
     text-decoration: none;
-    background-color: var(--primary-color);
-    border: 0.001rem solid white;
+    /* background-color: var(--primary-color); */
+    /* border: 0.001rem solid white; */
     
-}
-.socialmedia a{
-    text-decoration: none;
 }
 nav a {
     width: 10px;
@@ -117,3 +114,70 @@ section h2 {
     background-color: var(--heading-color);
     color: var(--primary-color);
 }
+.history {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    
+.history article{
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    align-items: center;
+    grid-gap: 1.5rem;
+}
+.history article img {
+    width: 200px;
+    height: auto;
+    
+}
+section article p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.caption {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.title {
+    grid-column: span 5;
+}
+figure img{
+    width: 100px;
+    height: auto;
+}
+.images {
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 50px;
+}figure figcaption {
+    text-align: center;
+}
+footer p{
+    color: var(--heading-color);
+}
+footer nav a {
+    display: block;
+    color: var(--heading-color);
+    text-align: center;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    /* background-color: var(--primary-color); */
+    /* border: 0.001rem solid white; */
+}
+.foot {
+    display: grid;
+    grid-template-columns: 1fr 2fr 100px;
+}
+.name {
+    grid-column-start: 2;
+}
+.socialmedia {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+
