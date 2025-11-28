@@ -1,0 +1,35 @@
+header {
+    margin: 0 auto;
+    width: 750px;
+}
+header form{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+main form {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+.examplecode {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+}
+button {
+    background-color: navy;
+    color: white;
+}
+input, textarea, select, button{
+    padding: 10px;
+    margin: 10px;
+}
+label {
+    padding-top: 20px;
+}

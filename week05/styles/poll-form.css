@@ -60,13 +60,15 @@ input[type="checkbox"] {
     vertical-align: bottom;
 }
 button {
-    margin: 1rem;
+    margin: 0 auto;
     background-color: rgb(74, 113, 7);
     color: white;
     border: none;
     border-radius: 30px;
     padding: 10px;
     font-size: 20px;
+    width: 300px;
+    
 }
 
 button:hover {
@@ -88,11 +90,13 @@ footer {
 .column1 {
     grid-template-columns: 3fr 1fr;
     margin: 10px 0;
-
+    padding-right: 90px;
 }
 .column2 {
     grid-template-columns: 1fr 2fr;
 }
-textarea {
-    /* text-align: center; */
+label[for="feedback"] {
+    text-align: center;
+    padding-top: 20px;
 }
+
