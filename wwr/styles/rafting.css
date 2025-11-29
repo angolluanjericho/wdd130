@@ -40,7 +40,7 @@ header img{
     padding: 0.5rem;
     margin-left: 120px;
 }
-p, section, article {
+p, article, section {
     margin: 16px;
     padding: 8px;
 }
@@ -109,51 +109,53 @@ nav img{
 }
 section h2 {
     position: relative;
-    top: 20px;
+    /* top: 20px; */
     width: 100%;
-    padding: 16px; 
+    padding: 8px; 
     text-align: center;
     /* opacity: 0.7; */
-    background-color: var(--heading-color);
+    /* background-color: var(--heading-color); */
     color: var(--text-color);
 }
-.history {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-    
-.history article{
-    display: grid;
-    grid-template-columns: 1fr 200px 1fr;
-    align-items: center;
-    grid-gap: 1.5rem;
-}
-.history article img {
-    width: 200px;
+.AT img {
+    width: 250px;
     height: auto;
-    
 }
-section article p{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.history{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--heading-color);
+    padding: 15px;
+    border: 1px solid rgb(180, 180, 180);
+}
+.HT{
+    grid-column: span 3;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.AT{
+    margin: .25rem;
+    text-align: left;
 }
 .caption {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    background-color: var(--heading-color);
+    padding: 15px;
+    border: 1px solid rgb(180, 180, 180);
 }
 .title {
     grid-column: span 5;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.images {
+    margin: .25rem;
+    text-align: center;
 }
 figure img{
     width: 100px;
     height: auto;
-}
-.images {
-    display: flex;
-    justify-content:space-evenly;
-    margin-top: 50px;
 }
 figure figcaption {
     text-align: center;
@@ -190,6 +192,11 @@ footer nav a {
     justify-content: center;
     text-align: center;
     margin-bottom: 20px;
+}
+iframe {
+    width: 400px;
+    height: 350px;
+    border: 1px solid rgb(180, 180, 180);
 }
 .map{
     display: grid;
@@ -248,7 +255,7 @@ figure figcaption span {
 .employee{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(234, 234, 234);
+    background-color: var(--heading-color);
     padding: 15px;
     border: 1px solid rgb(180, 180, 180);
 }
@@ -256,13 +263,18 @@ figure figcaption span {
     grid-column: span 3;
     text-align: center;
     margin-bottom: 10px;
-    font-size: 13px;
-    
 }
 .photo{
     margin: .25rem;
     text-align: center;
 }
+.infos p{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
 
 
 
