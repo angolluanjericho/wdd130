@@ -189,6 +189,8 @@ footer nav a {
 
 /* Contact Styles */
 
+
+
 .contactinfo {
     display: grid;
     justify-content: center;
@@ -279,7 +281,12 @@ input[type="checkbox"] {
     padding: 5px;
     box-sizing: border-box;
 }
+
+
+
 /* Home Page */
+
+
 
 .home {
     position: absolute;
@@ -297,10 +304,10 @@ input[type="checkbox"] {
     /* font-weight: bold; */
     color: var(--primary-color);
 }
-.HM2 {
+.HM2 h3{
     font-size: 15px;
     font-style: italic;
-    font-weight: bold;
+    font-weight: 300;
 }
 .CTA a{
     font-size: 16px;
@@ -310,7 +317,7 @@ input[type="checkbox"] {
 }
 
 .CTA {
-    font-size: 15px;
+    font-size: 16px;
     margin: 20px auto;
     padding: 15px;
     width: 300px;
@@ -374,8 +381,9 @@ input[type="checkbox"] {
 .newsletter h4 {
     font-size: 12px;
     margin-bottom: 20px;
-    font-style: italic;
+    /* font-style: italic; */
     text-align: center;
+    font-weight: 200;
 }
 .newsletter form {
     width: 280px;
@@ -396,4 +404,125 @@ input[type="checkbox"] {
 }
 .newsletter button:hover {
     background-color: rgb(255, 124, 131);
+}
+
+
+/* TRIPS STYLES */
+
+
+.T1 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 20px; 
+    /* opacity: 0.7; */
+    background-color: rgba(51, 0, 0, 0.5);
+    color: var(--heading-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.T1 h2 {
+    font-size: 30px;
+    letter-spacing: 8px;
+    font-weight: 300;
+}
+.now h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.now {
+    margin: 0 auto;
+    width: 600px;
+}
+.CTA2 a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--heading-color);
+    text-align: center;
+}
+.CTA2 {
+    font-size: 16px;
+    margin: 20px auto;
+    padding: 15px;
+    width: 300px;
+    background-color: var(--text-color);
+    border-radius: 20px;
+    text-align: center;
+}
+.CTA2:hover {
+    background-color: var(--primary-color);
+}
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: var(--heading-color); */
+    padding: 15px;
+    /* border: 1px solid rgb(180, 180, 180); */
+}
+.tripstitle {
+    grid-column: span 3;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tripstitle h2 {
+    color: var(--primary-color);
+    font-size: 25px;
+}
+.tripscaption{
+    text-align: center;
+    padding: 10px;
+}
+.tripsimages {
+    margin: .25rem;
+    text-align: center;
+}
+.trips figure img{
+    width: 230px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.CTA3 a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--heading-color);
+    text-align: center;
+}
+.CTA3 {
+    font-size: 16px;
+    margin: 20px auto;
+    padding: 15px;
+    width: 200px;
+    background-color: var(--text-color);
+    border-radius: 20px;
+    text-align: center;
+}
+.CTA3:hover {
+    background-color: var(--primary-color)
+}
+.tabletitle h2{
+    color: var(--primary-color);
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+table {
+    border-collapse: collapse;
+    background-color: var(--heading-color);
+    /* border: 1px solid var(--text-color); */
+}
+thead th{
+    background-color: var(--text-color);
+    color: var(--heading-color);
+    border: 1px solid var(--heading-color);
+}
+th, td{
+    padding: 10px;
+    border: 1px solid var(--text-color);
+}
+tr:nth-child(even) {
+    background-color: rgba(242, 55, 64, 0.1);
 }
